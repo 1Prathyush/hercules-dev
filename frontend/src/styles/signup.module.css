@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+.backgrounds {
+	background: url('../assets/daniel-apodaca-WdoQio6HPVA-unsplash.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+
+	font-family: 'Fredoka', sans-serif;
+}
+.backgroundsTwo {
+	width: 100%;
+	height: 100vh;
+
+	background: linear-gradient(
+		243.88deg,
+		rgba(97, 99, 113, 0.846) -12.56%,
+		rgba(21, 23, 30, 0.8836) 37.49%,
+		rgba(16, 16, 19, 0.94) 106%
+	);
+	background-size: contain;
+}
+.Createheading {
+	position: absolute;
+	width: 731px;
+	height: 112px;
+	top: 150px;
+	left: 95px;
+	font-weight: 400;
+	font-size: 62px;
+	line-height: 78px;
+	color: #ffffff;
+}
+.nameFiled {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.formFileds {
+	position: absolute;
+	top: 300px;
+	left: 95px;
+	width: 550px;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+}
+.divElements {
+	margin-top: 35px;
+}
+input[type="text"] {
+    border: none;
+	background: #595b63;
+	border-radius: 15px;
+	width: 240px;
+	height: 40px;
+}
+input[type="email"],
+[type="password"] {
+    border: none;
+	width: 545px;
+	height: 40px;
+	background: #595b63;
+	border-radius: 15px;
+}
+input[type="submit"] {
+    border: none;
+	position: absolute;
+	background: #0449e9;
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	border-radius: 15px;
+	width: 240px;
+	height: 45px;
+    left: 148px;
+}
+input{
+    color: #ffffff;
+    text-indent: 20px;
+}
+input::placeholder{
+    padding-left: 10px;
+}
+.LoginMessage{
+    
+    position: absolute;
+    left: 96px;
+    top: 245px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    
+    color: #FFFFFF;
+}
